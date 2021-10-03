@@ -1,10 +1,36 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddRestroComponent } from './add-restro/add-restro.component';
+import { ListRestroComponent } from './list-restro/list-restro.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { UpdateRestroComponent } from './update-restro/update-restro.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    component: AddRestroComponent,
+    path: 'add',
+  },
+  {
+    component: ListRestroComponent,
+    path: 'list',
+  },
+  {
+    component: UpdateRestroComponent,
+    path: 'update',
+  },
+  {
+    component: LoginComponent,
+    path: 'login',
+  },
+  {
+    component: RegisterComponent,
+    path: 'regsiter',
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

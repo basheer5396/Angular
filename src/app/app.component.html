@@ -1,19 +1,34 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-sm navbar-light bg-light navbar navbar-dark bg-dark    ">
+  <a class="navbar-brand" routerLink="">
+    <img src="https://cdn-icons-png.flaticon.com/512/2405/2405453.png" width="50" height="33" class="d-inline-block align-top" alt="">
+    
+  </a>
   <a class="navbar-brand" href="#">restro</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" routerLink="add">add</a>
+      <a class="nav-item nav-link" routerLink="add">Add Restaurant</a>
       <a class="nav-item nav-link" routerLink="update">update</a>
-      <a class="nav-item nav-link" routerLink="list">list</a>
-      <a class="nav-item nav-link" routerLink="login">login</a>
-      <a class="nav-item nav-link" routerLink="regsiter">register</a>
+      <a class="nav-item nav-link" routerLink="">list User</a>
+      <a class="nav-item nav-link" routerLink="login">login User</a>
+      <a class="nav-item nav-link" routerLink="regsiter">Register User</a>
     </div>
   </div>
 </nav>
 
-<div class="container">
+
+
+
+<div class="container ">
   <router-outlet></router-outlet>
+ 
+</div>
+
+
+<div>
+  <footer>
+    register your restarunt with us
+  </footer>
 </div>

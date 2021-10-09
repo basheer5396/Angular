@@ -1,0 +1,19 @@
+span.credits {
+  background: url(https://songhay.blob.core.windows.net/shared-styles-svg/akyinkyin.svg)
+    no-repeat top left;
+  background-size: contain;
+  cursor: pointer;
+  display: inline-block;
+  height: 15px;
+  width: 20px;
+}
+
+.ad {
+  margin-top: 40px;
+  padding: 40;
+}
+
+.ac {
+  color: black;
+  position: center;
+}

@@ -8,9 +8,8 @@ describe('ListRestroComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ListRestroComponent ]
-    })
-    .compileComponents();
+      declarations: [ListRestroComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

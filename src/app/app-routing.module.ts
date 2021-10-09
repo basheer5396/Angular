@@ -11,13 +11,10 @@ const routes: Routes = [
     component: AddRestroComponent,
     path: 'add',
   },
-  {
-    component: ListRestroComponent,
-    path: 'list',
-  },
+
   {
     component: UpdateRestroComponent,
-    path: 'update',
+    path: 'update/:id',
   },
   {
     component: LoginComponent,
@@ -26,6 +23,11 @@ const routes: Routes = [
   {
     component: RegisterComponent,
     path: 'regsiter',
+  },
+
+  {
+    component: ListRestroComponent,
+    path: '',
   },
 ];
 
